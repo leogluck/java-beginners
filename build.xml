@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <project name="java-beginners" default="compile">
 
-    <property name="src" location="leo/src; ls/src; student1/src"/>
+    <property name="src" location="leo/src"/>
     <property name="build" location="build/"/>
     <property name="classes" location="${build}/classes"/>
 
