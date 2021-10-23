@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<project name="java-beginners" default="compile">
+
+    <property name="src" location="leo/src; ls/src; student1/src"/>
+    <property name="build" location="build/"/>
+    <property name="classes" location="${build}/classes"/>
+
+    <target name="compile">
+        <mkdir dir="${classes}"/>
+        <javac srcdir="${src}" destdir="${classes}" includeantruntime="false"/>
+    </target>
+
+</project>
