@@ -2,7 +2,6 @@ import java.util.Scanner;
 
 public class MathClass {
     public static void main(String[] args) {
-
         Scanner in = new Scanner(System.in);
         System.out.print("Input a: ");
         int a_numder = in.nextInt();
@@ -18,7 +17,5 @@ public class MathClass {
         System.out.printf("(a^2+b^2)/2= %d \n", ans_2);
         System.out.printf("(a+b)/12*c%%4+b= %d \n", ans_3);
         System.out.printf("(a-b*c)/(a+b)%%c= %d \n", ans_4);
-
-
     }
 }
