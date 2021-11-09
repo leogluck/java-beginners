@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 public class Max_input {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
