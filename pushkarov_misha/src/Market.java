@@ -16,5 +16,8 @@ public class Market {
         else if (cost > 200) {
             System.out.println("Your discount: 5%");
         }
+        else {
+            System.out.println("ERROR!");
+        }
     }
 }
