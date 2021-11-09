@@ -5,18 +5,17 @@ public class Switch {
         Scanner in = new Scanner(System.in);
 
         System.out.println("Input call code: ");
-        int code = in.nextInt();
+        String code = in.nextLine();
         double cost;
 
         switch(code) {
-            case 044:
-                System.out.println("ggs");
+            case "044":
                 cost = 1.25 * 10;
             break;
-            case 032:
+            case "032":
                 cost = 1.98 * 10;
             break;
-            case 0532:
+            case "0532":
                 cost = 3.05 * 10;
             break;
             default:
