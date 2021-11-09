@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Class_Class {
+public class Class_division {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         System.out.print("Input two numbers:");
