@@ -15,9 +15,9 @@ public class ht3 {
         int ans_3 = ((a_number + b_number) / 12 * c_number % 4 + b_number);
         int ans_4 = (a_number - b_number * c_number) / (a_number + b_number) % c_number;
 
-        System.out.printf("Ответ номер 1 - " + ans_1);
-        System.out.printf("Ответ номер 2 - " + ans_2);
-        System.out.printf("Ответ номер 3 - " + ans_3);
-        System.out.printf("Ответ номер 4 - " + ans_4);
+        System.out.println("Ответ номер 1 - " + ans_1);
+        System.out.println("Ответ номер 2 - " + ans_2);
+        System.out.println("Ответ номер 3 - " + ans_3);
+        System.out.println("Ответ номер 4 - " + ans_4);
     }
 }
