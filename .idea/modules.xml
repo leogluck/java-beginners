@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/artem_hirych/artem_hirych.iml" filepath="$PROJECT_DIR$/artem_hirych/artem_hirych.iml" />
+      <module fileurl="file://$PROJECT_DIR$/danil_yakovenko/danil_yakovenko.iml" filepath="$PROJECT_DIR$/danil_yakovenko/danil_yakovenko.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dima_turchyn/dima_turchyn.iml" filepath="$PROJECT_DIR$/dima_turchyn/dima_turchyn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/egor_muchin/egor_muchin.iml" filepath="$PROJECT_DIR$/egor_muchin/egor_muchin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/leo/leo.iml" filepath="$PROJECT_DIR$/leo/leo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pushkarov_misha/pushkarov_misha.iml" filepath="$PROJECT_DIR$/pushkarov_misha/pushkarov_misha.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sabetskyi_stanislav/sabetskyi_stanislav.iml" filepath="$PROJECT_DIR$/sabetskyi_stanislav/sabetskyi_stanislav.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yaroslava_skomarovska/yaroslava_skomarovska.iml" filepath="$PROJECT_DIR$/yaroslava_skomarovska/yaroslava_skomarovska.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yehor_zharavin/yehor_zharavin.iml" filepath="$PROJECT_DIR$/yehor_zharavin/yehor_zharavin.iml" />
+    </modules>
+  </component>
+</project>
