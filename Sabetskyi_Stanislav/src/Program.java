@@ -9,6 +9,7 @@ public class Program {
         int age = in.nextInt();
         System.out.print("Input your money: ");
         int money = in.nextInt();
+      
         if (age > 18 && money > 500) {
             System.out.printf("Your welcome");
         } else if (age < 18 && money > 700) {
