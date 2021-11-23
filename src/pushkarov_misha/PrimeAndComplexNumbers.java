@@ -1,3 +1,5 @@
+package pushkarov_misha;
+
 import java.util.Scanner;
 
 public class PrimeAndComplexNumbers {
@@ -14,9 +16,6 @@ public class PrimeAndComplexNumbers {
 
                     break;
                 }
-            }
-            else {
-                continue;
             }
         }
 
