@@ -1,4 +1,4 @@
-package hometasks;
+package danil_yakovenko;
 
 import java.util.Scanner;
 

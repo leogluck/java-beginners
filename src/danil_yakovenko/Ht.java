@@ -1,3 +1,5 @@
+package danil_yakovenko;
+
 public class Ht {
     public static void main(String[] args) {
         double a = Math.random() * 10;

@@ -1,4 +1,5 @@
-package hometasks;
+package danil_yakovenko;
+
 import java.util.Scanner;
 
 public class ht3 {
