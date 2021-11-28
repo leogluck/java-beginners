@@ -1,4 +1,4 @@
-package dima_turchyn;
+package dima_turchyn.hometask1;
 
 public class HelloWorld {
     public static void main(String[] args) {

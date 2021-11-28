@@ -1,4 +1,4 @@
-package dima_turchyn;
+package dima_turchyn.hometask2;
 
 import java.util.Scanner;
 

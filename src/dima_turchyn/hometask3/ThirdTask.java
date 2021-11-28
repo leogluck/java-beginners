@@ -1,3 +1,5 @@
+package dima_turchyn.hometask3;
+
 import java.util.Scanner;
 
 public class ThirdTask {
