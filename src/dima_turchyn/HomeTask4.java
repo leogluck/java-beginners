@@ -1,6 +1,8 @@
+package dima_turchyn;
+
 import java.util.Scanner;
 
-public class home_task_4 {
+public class HomeTask4 {
     public static void main(String[] args) {
 
         Scanner in = new Scanner(System.in);
