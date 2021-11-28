@@ -9,13 +9,12 @@ public class Program {
         int age = in.nextInt();
         System.out.print("Input your money: ");
         int money = in.nextInt();
-        if(age>18 && money>500){
+      
+        if (age > 18 && money > 500) {
             System.out.printf("Your welcome");
-        }
-        else if (age<18 && money>700){
+        } else if (age < 18 && money > 700) {
             System.out.printf("Ok you can go, but next time..");
-        }
-        else{
+        } else {
             System.out.printf("You shell not pass!");
         }
     }
