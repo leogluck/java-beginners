@@ -9,7 +9,7 @@ public class PrimeAndComplexNumbers {
         int enteredNum = in.nextInt();
         String result = "prime number";
 
-        for (int i = 2; i <= 5; i++) {
+        for (int i = 2; i < enteredNum / 2; i++) {
             if (enteredNum % i == 0) {
                 result = "complex number";
 
