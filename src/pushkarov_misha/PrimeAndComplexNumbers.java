@@ -9,13 +9,11 @@ public class PrimeAndComplexNumbers {
         int enteredNum = in.nextInt();
         String result = "prime number";
 
-        for (int i = 0; i <= enteredNum; i++) {
-            if (i != 0 && i != 1 && i != enteredNum) {
-                if (enteredNum % i == 0) {
-                    result = "complex number";
+        for (int i = 2; i <= 5; i++) {
+            if (enteredNum % i == 0) {
+                result = "complex number";
 
-                    break;
-                }
+                break;
             }
         }
 
