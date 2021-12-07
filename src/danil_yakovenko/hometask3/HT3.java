@@ -5,20 +5,18 @@ import java.util.Scanner;
 public class HT3 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        System.out.print("Input a: ");
-        int aNumber = in.nextInt();
-        System.out.print("Input b: ");
-        int bNumber = in.nextInt();
-        System.out.print("Input c: ");
-        int cNumber = in.nextInt();
-        int ans_1 = (aNumber = (bNumber * cNumber)) / 2;
-        int ans_2 = ((aNumber * aNumber) + (bNumber * bNumber)) / 2;
-        int ans_3 = ((aNumber + bNumber) / 12 * cNumber % 4 + bNumber);
-        int ans_4 = (aNumber - bNumber * cNumber) / (aNumber + bNumber) % cNumber;
-
-        System.out.println("Ответ номер 1 - " + ans_1);
-        System.out.println("Ответ номер 2 - " + ans_2);
-        System.out.println("Ответ номер 3 - " + ans_3);
-        System.out.println("Ответ номер 4 - " + ans_4);
+        System.out.printf("Введите число 1: ");
+        int number1 = in.nextInt();
+        System.out.printf("Введите число 2: ");
+        int number2 = in.nextInt();
+        System.out.printf("Введите число 3 : ");
+        int number3 = in.nextInt();
+        if (number1 > number2 && number1 > number3) {
+            System.out.println(number1 + " большее");
+        } else if (number2 > number1 && number2 > number3) {
+            System.out.println(number2 + " большее");
+        } else if (number3 > number2 && number3 > number1) {
+            System.out.println(number3 + " большее");
+        }
     }
 }
