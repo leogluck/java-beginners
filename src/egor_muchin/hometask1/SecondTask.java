@@ -18,4 +18,6 @@ public class SecondTask<a, b, c> {
         System.out.println((a + (b * c)) / 2);
         System.out.println(((a * a) + (b * b)) / 2);
         System.out.println((a + b) / 12 * c % 4 + b);
-        System.out.println((a - b * c) / (a + b) % c);}}
+        System.out.println((a - b * c) / (a + b) % c);
+    }
+}
