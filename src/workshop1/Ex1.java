@@ -10,7 +10,7 @@ public class Ex1 {
 
     {
         System.out.println("non static");
-        a = a++ + ++a;
+        a = a++ - ++a;
     }
 
     public static void main(String[] args) {
