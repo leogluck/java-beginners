@@ -15,5 +15,9 @@ public class Ex1 {
 
     public static void main(String[] args) {
         System.out.println(a);
+
+        Ex1 object = new Ex1();
+
+        System.out.println(a);
     }
 }
