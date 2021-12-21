@@ -6,7 +6,9 @@ public class Ex2 {
 
         Integer i2 = 128;
 
-        System.out.println(i1 == i2);
+        Integer i5 = new Integer(128);
+
+        System.out.println(i1 == i2 && i1 == i5 && i2 == i5);
 
         Integer i3 = 127;
 
