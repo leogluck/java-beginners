@@ -7,6 +7,7 @@ public class Ex3 {
 
     public static void main(String[] args) {
         Ex3 obj = null;
-        obj.show();
+        show();
+        obj.hashCode();
     }
 }
