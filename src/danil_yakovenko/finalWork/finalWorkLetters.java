@@ -3,14 +3,15 @@ import java.util.Scanner;
 
 public class finalWorkLetters {
     public static void main(String[] args) {
-        char[] password = new char[6];
-        char[] lettersPackage = new char[]{'q', 'w', 'e', 'r', 't', 'y', 'u', 'i', 'o', 'p', 'a', 's', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'z', 'x', 'c', 'v', 'b', 'n', 'm'};
-        String newPassword;
+        String[] password = new String[6];
+        String[] lettersPackage = new String[]{"q", "w", "e", "r", "t", "y", "u", "i", "o", "p", "a", "s", "d", "f", "g", "h", "j", "k", "l", "z", "x", "c", "v", "b", "n", "m"};
+        String[] newPassword = new String[6];
+        String[] newNewPassword = new String[6];
         Scanner scan = new Scanner(System.in);
 
         int i = 0;
         while (scan.hasNext()) {
-            password[i] = scan.next().toCharArray()[0];
+            password[i] = String.valueOf(scan.next());
             i++;
             if(i == password.length){
                 break;
@@ -23,16 +24,21 @@ public class finalWorkLetters {
 
         System.out.println("");
 
+        int h = 0;
+        int l = 0;
         String letter;
-        StringBuilder ltr = new StringBuilder();
-        for (int h = 0; h < password.length; h++) {
-            int l = 0;
-            while (password[h] != lettersPackage[l++]) {
+        String ltr = "";
+        while (true) {
+            letter = password[h];
+            while (h == 6) {
+                
             }
-            ltr.append(lettersPackage[l]);
+            break;
         }
-        newPassword = ltr.toString();
 
-        System.out.print(newPassword);
+
+        for (int z = 0; z < 6; z++) {
+           System.out.print(newPassword[z]);
+        }
     }
 }
