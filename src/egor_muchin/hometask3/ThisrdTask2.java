@@ -16,4 +16,4 @@ public class ThisrdTask2 {
                 if (ans == 0) {
                 System.out.println(aNumber / bNumber "не дилится");
                 }
-                }
+
