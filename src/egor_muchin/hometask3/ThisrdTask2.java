@@ -12,9 +12,11 @@ public class ThisrdTask2 {
         if (aNumber == 0) {
             System.out.println("эти числа не могут делится");
         } else {
-            int ans = aNumber / bNumber;
-            if (ans == 0) {
-                System.out.println(aNumber / bNumber + "не делится");
+            int remainder = aNumber % bNumber;
+            if (remainder == 0) {
+                System.out.println(aNumber / bNumber + " делятся");
+            } else {
+                System.out.println("Не делятся. Остаток: " + remainder);
             }
         }
     }
