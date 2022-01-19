@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class TestProject {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        int.nextInt();
+//        int.nextInt();
         try(FileWriter writer = new FileWriter("notes3.txt", false))
         {
 

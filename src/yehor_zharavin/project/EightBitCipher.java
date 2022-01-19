@@ -1,18 +1,16 @@
 package yehor_zharavin.project;
 
-public class EightBitCipher {
+public class EightBitCipher implements EightBitCipherInterface {
     public static void main(String[] args) {
 
 
     }
 
-    // 1. Написать функцию считывания текста
+    // TODO 1. Реализовать тут методы интерфейса EightBitCipherInterface
 
-    // 2. написать функцию превращения текста в массив символов (char[])
+    // TODO 2. написать функцию превращения текста в массив символов (char[]) (в методе encode())
 
-    // 3. написать функцию считывания секретного ключа (считать ключ как текст 00101101)
-
-    // 4. придумать функцию конвертации строки секретного ключа в тип данных int
+    // TODO 3. продумать реализацию метода encode(). Добавить перебор элементов строки в этом методе
 
     private static char xor(char c1, char c2) {
         return (char) (c1 ^ c2);
