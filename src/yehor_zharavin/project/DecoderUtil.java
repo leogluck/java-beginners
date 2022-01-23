@@ -1,13 +1,13 @@
 package yehor_zharavin.project;
 
 public class DecoderUtil {
-    public static byte keyToByte(String secretKey) {
+    public static char keyToByte(String secretKey) {
         // "01100011" -> 99
         // '1' - '0' = 1
         // '0' - '0' = 0
 
         int multiplier = 1;
-        byte key = 0;
+        char key = 0;
         char[] charArray = secretKey.toCharArray();
         for (int index = charArray.length - 1; index >= 0 ; index--){
             key += (charArray[index] - '0') * multiplier;
