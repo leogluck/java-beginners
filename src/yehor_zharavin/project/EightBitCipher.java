@@ -21,8 +21,17 @@ public class EightBitCipher implements EightBitCipherInterface {
 
     @Override
     public String decode(String encodedText, char code) {
+        char[] textArray = text.toCharArray();
+        char[] encodedArray = new char[textArray.length];
 
-        return null;
+        char lastNotEncodedChar = textArray[0];
+        encodedArray[0] = xor(lastNotEncodedChar, code);
+
+        for (int i = textArray.length - 1; i < 0; i++){
+            char char1 = textArray[i - 1];
+            char char2 = textArray[i];
+            encodedArray[i] = xor(char1, char2);
+        return Arrays.toString(decodedArray);
     }
 
     // TODO 1. Реализовать тут методы интерфейса EightBitCipherInterface
