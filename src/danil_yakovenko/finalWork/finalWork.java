@@ -1,5 +1,4 @@
 package danil_yakovenko.finalWork;
-import java.util.Arrays;
 import java.util.Scanner;
 
 
@@ -11,16 +10,26 @@ public class finalWork {
         int[] newNewPassword = new int[6];
         Scanner scan = new Scanner(System.in);
 
-        for (int i = 0; i < 6; i++) {
+        int i = 0;
+        while(scan.hasNextInt()){
             password[i] = scan.nextInt();
+            i++;
+            if(i == 6){
+                break;
+            }
         }
 
+        int h = 0;
         int number;
         int nmbr;
-        for (int h = 0; h < 6; h++) {
+        while (true) {
             number = password[h];
             nmbr = number + '1';
             newPassword[h] = nmbr;
+            h++;
+            if (h == 6){
+                break;
+            }
         }
 
         System.out.println("New password: ");
@@ -30,12 +39,18 @@ public class finalWork {
 
         System.out.println(" ");
 
+        int p = 0;
         int number2;
         int nmbr2;
-        for (int p = 0; p < 6; p++) {
+
+        while (true) {
             number2 = newPassword[p];
             nmbr2 = number2 - '1';
             newNewPassword[p] = nmbr2;
+            p++;
+            if (p == 6){
+                break;
+            }
         }
 
         System.out.println("New new password: ");
@@ -44,3 +59,5 @@ public class finalWork {
         }
     }
 }
+
+
