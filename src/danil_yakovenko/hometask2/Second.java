@@ -1,6 +1,6 @@
 package danil_yakovenko.hometask2;
 
-public class SecondTask {
+public class Second {
     public static void main(String[] args){
         double a = Math.random() * 10;
         double b = Math.random() * 10;
