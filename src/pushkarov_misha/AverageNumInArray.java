@@ -8,6 +8,7 @@ public class AverageNumInArray {
         for (int i = 0; i < myArray.length; i++) {
             sum += myArray[i];
         }
-        System.out.println(sum);
+
+        System.out.println(sum / myArray.length);
     }
 }
